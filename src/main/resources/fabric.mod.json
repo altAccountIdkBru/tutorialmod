@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "tutorialmod",
+	"version": "${version}",
+	"name": "tutorialmod",
+	"description": "I make mod based on kaupenjoe's tutorial on yt. idk bru, why u lookin at me like tht?",
+	"authors": [
+		"spitey0u (add me on discord gng)"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/tutorialmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.spitey0u.tutorialmod.Tutorialmod"
+		],
+		"fabric-datagen": [
+			"net.spitey0u.tutorialmod.TutorialmodDataGenerator"
+		],
+		"client": [
+			"net.spitey0u.tutorialmod.TutorialModClient"
+		]
+	},
+	"mixins": [
+		"tutorialmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
