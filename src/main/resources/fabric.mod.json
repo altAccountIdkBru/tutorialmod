@@ -16,7 +16,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.spitey0u.tutorialmod.Tutorialmod"
+			"net.spitey0u.tutorialmod.TutorialMod"
 		],
 		"fabric-datagen": [
 			"net.spitey0u.tutorialmod.TutorialmodDataGenerator"
